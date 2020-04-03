@@ -138,6 +138,9 @@ button:hover {
     .right .left-pane {
         display: none;
     }
+    .right .right-pane {
+      border: none;
+    }
     .left .left-pane {
         flex: 1;
     }
