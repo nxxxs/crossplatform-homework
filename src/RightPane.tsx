@@ -36,7 +36,6 @@ export class RightPane extends Component<{ conversation?: ConversationDto, onBac
                             <button type="button" className="only-narrow"
                                 onClick={() => this.props.onBack()}>Back</button>
                             <p>{this.props.conversation?.name}</p>
-                            <p>{this.props.conversation?.name}</p>
                         </div>
                         <div className="messages">
                             {this.props.conversation?.lastMessages.map(x =>
