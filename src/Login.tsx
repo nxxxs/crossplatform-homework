@@ -8,7 +8,7 @@ import { proxy } from './Proxy';
 import { TextInput } from './TextInput';
 
 export class Login extends Component {
-    state = { email: "string", password: "123string456", displayName: "", register: false };
+    state = { email: "", password: "", displayName: "", register: false };
     displayNameTextInput = React.createRef<TextInput>();
     render() {
         return (
